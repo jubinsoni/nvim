@@ -1,6 +1,7 @@
 # nvim
 Lazyvim configuration for nvim
 
+nvim neovim lazyvim
 
 mac 
 brew install neovim
@@ -16,7 +17,7 @@ Then add this to your shell config (~/.bashrc, ~/.zshrc, ...):
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
 
-steps
+steps for original setup
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 
@@ -25,11 +26,18 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 nvim
 
-OR
+OR 
 
-sudo su
-sudo tar -xvf  nvim.tar
-sudo mv nvim ~/.config/
+steps for personal flavour
+
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+
+install : https://www.lazyvim.org/installation
+git clone https://github.com/jubinsoni/nvim.git ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+nvim
+
 
 after installation is done
 run :LazyHealth after installation. This will load all plugins and check if everything is working correctly.
