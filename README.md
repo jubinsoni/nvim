@@ -1,7 +1,4 @@
 # nvim
-Lazyvim configuration for nvim
-
-nvim neovim lazyvim
 
 mac 
 brew install neovim
@@ -88,7 +85,7 @@ https://www.youtube.com/watch?v=Qtdbco50sPc
 custom theme for catppuccin
 https://github.com/catppuccin/nvim/discussions/323
 
-install pywright lsp
+install basedpyright, gopls lsp
 1) space + c + m to open mason then press 2 to go to LSP screen
 2) go to pywright and press i
 
@@ -115,4 +112,3 @@ q+a to record macro(q +a,b,c any can be used)
 after doing changes for 1 line, press q to end recording
 
 to apply press @a
-
