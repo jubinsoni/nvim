@@ -37,6 +37,7 @@ nvim
 
 
 after installation is done
+install ripgrep : sudo apt-get install ripgrep
 run :LazyHealth after installation. This will load all plugins and check if everything is working correctly.
 run :checkhealth
 
